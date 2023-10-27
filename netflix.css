@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+
+/* headrer part or navbar */
+.header {
+  width: 100%;
+  height: 88vh;
+  color: white;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(lang.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 160px;
+}
+hr {
+  border: 4px solid rgb(36, 35, 35);
+}
+.logo img {
+  width: 150px;
+  cursor: pointer;
+}
+.menu button {
+  border: none;
+  background-color: #db0001;
+  color: white;
+  padding: 7px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+.menu .sign-btn {
+  padding: 9px 18px;
+}
+.menu .lang-btn {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 7px 35px;
+  padding-right: 15px;
+}
+.menu .lang-btn img {
+  width: 8px;
+  margin-left: 10px;
+}
+.world {
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 36px;
+  top: 5px;
+}
+.menu .lang-btn:hover {
+  border: 2px solid white;
+}
+.menu .sign-btn:hover {
+  background-color: rgb(191, 6, 6);
+}
+
+/* main Content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30%;
+}
+.main-content h1 {
+  font-size: 3.2vw;
+  font-weight: 800;
+  line-height: 65px;
+}
+.main-content h3 {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 20px 0px;
+  line-height: 20px;
+}
+.main-content p {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.main-content input {
+  width: 356px;
+  padding: 18px 7px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: transparent;
+  margin: 0px 5px;
+  color: white;
+}
+.main-content input::placeholder {
+  font-size: 17px;
+  color: rgb(196, 193, 193);
+}
+.main-content button {
+  padding: 14px;
+  width: 200px;
+  background-color: #db0001;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-size: 23px;
+  font-weight: 600;
+  position: relative;
+  top: 4px;
+  cursor: pointer;
+}
+.main-content input:hover {
+  border: 2px solid white;
+}
+.main-content button:hover {
+  background-color: rgb(191, 6, 6);
+}
+
+/* ------------------Featurs--------------- */
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 12%;
+  font-size: 22px;
+}
+.item1 h1 {
+  font-weight: 800;
+  line-height: 55px;
+  margin: 20px 0px;
+}
+.item1 p {
+  font-size: 23px;
+  line-height: 30px;
+}
+.row .image1 img {
+  width: 550px;
+  
+}
+/* ============faq============= */
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  padding: 75px 0px;
+  font-size: 22px;
+}
+
+.question h1 {
+  font-weight: 1000;
+  margin: 20px 0px;
+}
+.faq details {
+  background-color: rgb(45, 45, 45);
+  padding: 30px 2%;
+  margin: 8px 0px;
+  width: 1100px;
+  font-size: 22px;
+}
+
+.faq details p {
+  margin: 25px 0px;
+}
+
+.question p {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.question input {
+  width: 356px;
+  padding: 18px 7px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: transparent;
+  margin: 0px 5px;
+  color: white;
+}
+.question input::placeholder {
+  font-size: 17px;
+  color: rgb(196, 193, 193);
+}
+
+.question input:hover {
+  border: 2px solid white;
+}
+
+.question button:hover {
+  background-color: rgb(191, 6, 6);
+}
+.question button {
+  padding: 14px;
+  width: 200px;
+  background-color: #db0001;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-size: 23px;
+  font-weight: 600;
+  position: relative;
+  top: 4px;
+  cursor: pointer;
+}
+
+/* ================footer==================== */
+
+footer p {
+  padding-top: 75px;
+  margin-left: 165px;
+  margin-bottom: 35px;
+  color: rgb(165, 165, 165);
+}
+footer a {
+  color: rgb(165, 165, 165);
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 210px;
+}
+
+.foot ul li {
+  list-style-type: none;
+  padding: 10px 100px;
+  font-size: 14px;
+  color: rgb(165, 165, 165);
+}
+
+footer .lang-btn {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 7px 35px;
+  padding-right: 15px;
+  margin-left: 140px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+footer .lang-btn img {
+  width: 8px;
+  margin-left: 10px;
+}
+footer .world {
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 170px;
+  top: 5px;
+}
+
+.india {
+  margin: 30px 165px;
+  font-size: 14px;
+  color: rgb(165, 165, 165);
+  margin-bottom: 50px;
+}
+
+footer .lang-btn:hover {
+  border: 2px solid white;
+}
+
+/* ===================mobile responsive====================== */
+
+/* @media only screen and (min-width: 200px) and (max-width: 900px) {
+  
